@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  target: "static",
+  router: {
+    base: "/PageWidthAPI-01/",
+  },
   devtools: { enabled: true },
   css: [`@/assets/styles/global.scss`],
   vite: {
