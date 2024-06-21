@@ -1,0 +1,41 @@
+/*400*/
+@font-face {
+  font-family: "TT Commons";
+  src: url("@/assets/fonts/TTCommons-Regular.ttf");
+}
+
+@mixin TT_Commons-16 {
+  font-family: "TT Commons";
+  font-size: 16px;
+  font-weight: normal;
+}
+@mixin TT_Commons-20 {
+  font-family: "TT Commons";
+  font-size: 20px;
+  font-weight: normal;
+}
+@mixin TT_Commons-32 {
+  font-family: "TT Commons";
+  font-size: 32px;
+  font-weight: normal;
+}
+@mixin TT_Commons-36 {
+  font-family: "TT Commons";
+  font-size: 36px;
+  font-weight: normal;
+}
+@mixin TT_Commons-50 {
+  font-family: "TT Commons";
+  font-size: 40px;
+  font-weight: bold;
+}
+@mixin TT_Commons-84 {
+  font-family: "TT Commons";
+  font-size: 84px;
+  font-weight: bold;
+}
+@mixin TT_Commons-112 {
+  font-family: "TT Commons";
+  font-size: 112px;
+  font-weight: normal;
+}
